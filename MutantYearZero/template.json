@@ -1,0 +1,336 @@
+{
+  "status": "alpha",
+  "version": "0.0.2",
+  "identifier": "$identifier",
+  "name": "Mutant: Year Zero",
+  "img": "/MutantYearZero/logo.jpg",
+  "description": "$description",
+  "template": {
+    "initiative": {
+      "dices": "d6",
+      "formula": "@i1.total > @i2.total ? 1 : (@i1.total == @i2.total ? 0 : -1)"
+    },
+    "dices": [
+      {
+        "key": "attribute",
+        "dice": "d6",
+        "name": "$attribute",
+        "style": {
+          "background-color": "yellow",
+          "border": "1px solid white",
+          "color": "black"
+        },
+        "faces": {
+          "1": {
+            "images": [
+              "/MutantYearZero/dices/bio_b.png"
+            ],
+            "icons": [
+              "mdi-biohazard"
+            ]
+          },
+          "6": {
+            "images": [
+              "/MutantYearZero/dices/rad_b.png"
+            ],
+            "icons": [
+              "mdi-radioactive"
+            ]
+          }
+        }
+      },
+      {
+        "key": "skill",
+        "dice": "d6",
+        "name": "$skill",
+        "style": {
+          "background-color": "green",
+          "border": "1px solid white",
+          "color": "white"
+        },
+        "faces": {
+          "6": {
+            "images": [
+              "/MutantYearZero/dices/rad_w.png"
+            ]
+          }
+        }
+      },
+      {
+        "key": "gear",
+        "dice": "d6",
+        "name": "$gear",
+        "style": {
+          "background-color": "black",
+          "border": "1px solid white",
+          "color": "white"
+        },
+        "faces": {
+          "1": {
+            "images": [
+              "/MutantYearZero/dices/explosion.png"
+            ]
+          },
+          "6": {
+            "images": [
+              "/MutantYearZero/dices/rad_w.png"
+            ],
+            "icons": [
+              "mdi-radioactive"
+            ]
+          }
+        }
+      }
+    ],
+    "sheets": {
+      "mutant": {
+        "img": {},
+        "token": {},
+        "name": "$mutant",
+        "armor": [],
+        "conditions": "$conditions",
+        "counters": "$counters",
+        "critical_injuries": [],
+        "gear": [],
+        "info": {
+          "description": "",
+          "role": "@random",
+          "face": "",
+          "body": "",
+          "clothing:": "",
+          "den": {
+            "description": "",
+            "gear_stashed": ""
+          },
+          "goal": "",
+          "notes": ""
+        },
+        "misfires": [],
+        "mutations": [
+          "@random"
+        ],
+        "relationships": [
+          {
+            "who": "",
+            "attitude": ""
+          }
+        ],
+        "skills": "$skills",
+        "stats": "$stats",
+        "talents": [],
+        "weapons": []
+      },
+      "npc": {
+        "img": {},
+        "token": {},
+        "name": "$npc",
+        "armor": [],
+        "conditions": "$conditions",
+        "counters": "$counters",
+        "critical_injuries": [],
+        "gear": [],
+        "info": {
+          "description": "",
+          "role": "@random",
+          "face": "",
+          "body": "",
+          "clothing:": "",
+          "den": {
+            "description": "",
+            "gear_stashed": ""
+          },
+          "goal": ""
+        },
+        "misfires": [],
+        "mutations": [
+          "@random"
+        ],
+        "relationships": [
+          {
+            "who": "",
+            "attitude": ""
+          }
+        ],
+        "skills": "$skills",
+        "stats": "$stats",
+        "talents": [],
+        "weapons": []
+      },
+      "monster": {
+        "img": {},
+        "token": {},
+        "name": "$monster",
+        "armor": [],
+        "info": {
+          "name": "",
+          "description": ""
+        },
+        "skills": "$skills",
+        "stats": "$stats",
+        "weapons": []
+      },
+      "arc": {
+        "img": {},
+        "name": "$arc",
+        "info": {
+          "type": "",
+          "description": "",
+          "coordinates": "A0",
+          "water_source": "",
+          "season": ""
+        },
+        "players": 1,
+        "population": 1,
+        "stats": "$stats_arc",
+        "projects": [],
+        "bosses": []
+      },
+      "social_list": {
+        "img": "$social_list_img",
+        "name": "$social_list",
+        "relationship": [
+          {
+            "name": "",
+            "type": "NPC",
+            "status": "",
+            "data": "",
+            "description": ""
+          }
+        ]
+      }
+    },
+    "menus": {
+      "notes": {
+        "icon": "mdi-notebook",
+        "name": "Заметки",
+        "template": {
+          "name": "",
+          "description": "",
+          "image": {},
+          "styles": [
+            {
+              "name": "$simple_note",
+              "style": {},
+              "bgStyle": {}
+            },
+            {
+              "name": "$pc_screen",
+              "style": {
+                "font-family": "\"Lucida Sans Unicode\", \"Lucida Grande\", sans-serif",
+                "background": "linear-gradient(rgba(0,255,0,0.2),  rgba(0,0,0,0.0), rgba(0,255,0,0.2))",
+                "background-size": "100% 4px",
+                "font-size": "1.0em",
+                "color": "rgb(5, 200, 5)",
+                "text-shadow": "0 0 8px rgb(5, 200, 5)",
+                "font-weight": "bolder",
+                "padding": "3em"
+              },
+              "bgStyle": {
+                "background": "radial-gradient(rgb(35,65,35), rgb(0,30,0))"
+              }
+            }
+          ]
+        }
+      },
+      "things": {
+        "icon": "mdi-bag-personal",
+        "name": "$things",
+        "template": {
+          "name": "",
+          "description": "",
+          "weight": 0
+        }
+      },
+      "sectors": {
+        "icon": "mdi-compass-outline",
+        "name": "Сектора",
+        "template": {
+          "name": "A0",
+          "artifacts": [],
+          "finds": {
+            "bullets": 0,
+            "food": 0,
+            "water": 0,
+            "scraps": 0
+          },
+          "explored": false,
+          "night": false,
+          "environment": {},
+          "moods": [],
+          "normal_ruins": [],
+          "industry_ruins": [],
+          "threat_level": {},
+          "threats": [],
+          "rot": {}
+        }
+      },
+      "arc_events": {
+        "icon": "mdi-home-alert",
+        "name": "$arc_events",
+        "template": {
+          "index": 0,
+          "name": "",
+          "description": ""
+        }
+      },
+      "zone_events": {
+        "icon": "mdi-alert",
+        "name": "$zone_events",
+        "template": {
+          "index": 0,
+          "name": "",
+          "description": ""
+        }
+      },
+      "arc_threats": {
+        "icon": "mdi-shield-home",
+        "name": "$arc_threats",
+        "template": {
+          "index": 0,
+          "name": "",
+          "description": ""
+        }
+      }
+    },
+    "tables": {
+      "arc_food": "$arc_food",
+      "arc_culture": "$arc_culture",
+      "arc_technology": "$arc_culture",
+      "arc_warfare": "$arc_warfare",
+      "arc_projects": "$arc_projects",
+      "artifacts": "$artifacts",
+      "critical_injuries": "$critical_injuries",
+      "humanoids": "$humanoids",
+      "humanoids_npc": "$humanoids_npc",
+      "events_arc": "$events_arc",
+      "events_zone": "$events_zone",
+      "environments": "$environments",
+      "misfires": "$misfires",
+      "monsters": "$monsters",
+      "monsters_npc": "$monsters_npc",
+      "moods": "$moods",
+      "mutations": "$mutations",
+      "normal_ruins": "$normal_ruins",
+      "industry_ruins": "$industry_ruins",
+      "phenomenons": "$phenomenons",
+      "rot": "$rot",
+      "skills": "$role_skills",
+      "talents": "$role_talents",
+      "threats": "$threats",
+      "threats_arc": "$threats_arc",
+      "threat_levels": "$threat_levels",
+      "starving": "$starving",
+      "dehydrated": "$dehydrated",
+      "sleepless": "$sleepless",
+      "hypothermia": "$hypothermia",
+      "npc_names": "$npc_names",
+      "npc_appearances": "$npc_appearances",
+      "npc_goals": "$npc_goals",
+      "npc_weapons": "$npc_weapons",
+      "npc_roles": "$npc_roles",
+      "npc_attribute": "$npc_attribute",
+      "scraps": "$scraps",
+      "weapons": "$weapons"
+    }
+  }
+}
