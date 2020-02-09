@@ -1,0 +1,106 @@
+{
+  "status": "alpha",
+  "version": "0.0.1",
+  "identifier": "$identifier",
+  "name": "$name",
+  "img": "/BladeInTheDark/logo.jpg",
+  "description": "$description",
+  "template": {
+    "sheets": {
+      "character": {
+        "img": {},
+        "token": {},
+        "name": "$character",
+        "info": {
+          "role": "@random",
+          "realName": "",
+          "team": "",
+          "appearance": "",
+          "origin": "",
+          "past": "",
+          "passion": "",
+          "notes": ""
+        },
+        "stress": "$stress",
+        "injuries": [],
+        "injuriesCount": "$injuriesCount",
+        "damage": [],
+        "treatmentCounter": "$treatmentCounter",
+        "protection": "$protection",
+        "talents": [],
+        "talentsExp": "$characterTalentsExp",
+        "relationship": [],
+        "stash": 0,
+        "coinsOnHand": "$coinsOnHand",
+        "coins": 0,
+        "attributes": "$attributes",
+        "gear": [],
+        "problemType": "",
+        "weight": 0
+      },
+      "team": {
+        "img": {},
+        "name": "$team",
+        "info": {
+          "role": "@random",
+          "den": "",
+          "reputation": "",
+          "notes": "",
+          "huntingGrounds": "",
+          "description": "",
+          "additionalFields": []
+        },
+        "reputation": "$reputation",
+        "territories": "$territories",
+        "control": "strong",
+        "rank": "$rank",
+        "coinsOnHand": "$coinsOnHand",
+        "coinsOnTreasury": "$coinsOnTreasury",
+        "coins": 0,
+        "suspicions": "$suspicions",
+        "wanted": "$wanted",
+        "talents": [],
+        "exp": "$exp",
+        "relationship": [],
+        "teamImprovements": [],
+        "minions": [],
+        "denImprovements": "$denImprovements",
+        "projects": [],
+        "additionalProjects": [],
+        "prisonProjects": "$prisonProjects",
+        "specialPlaces": "$specialPlaces"
+      }
+    },
+    "menus": [
+      {
+        "type": "bid-clock",
+        "icon": "mdi-clock-outline",
+        "name": "$clock"
+      },
+      {
+        "type": "bid-things",
+        "icon": "mdi-bag-personal",
+        "name": "$things"
+      }
+    ],
+    "tables": {
+      "roles": "$roles",
+      "characterTalents": "$characterTalents",
+      "characterRelationship": "$characterRelationship",
+      "characterGear": "$characterGear",
+      "teamRoles": "$teamRoles",
+      "projects": "$projects",
+      "teamTalents": "$teamTalents",
+      "teamRelationship": "$teamRelationship",
+      "teamImprovements": "$teamImprovements",
+      "teamDenImprovements": "$teamDenImprovements",
+      "origins": "$origins",
+      "pasts": "$pasts",
+      "passions": "$passions",
+      "injuries": "$injuries",
+      "characterExp": "$characterExp",
+      "specialPlaces": "$specialPlaces",
+      "minions": "$minions"
+    }
+  }
+}
