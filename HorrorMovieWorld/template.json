@@ -1,0 +1,38 @@
+{
+  "status": "alpha",
+  "version": "0.0.1",
+  "identifier": "$identifier",
+  "name": "$name",
+  "img": "/HorrorMovieWorld/logo.jpg",
+  "description": "$description",
+  "template": {
+    "sheets": {
+      "character": {
+        "img": {},
+        "token": {},
+        "name": "$character",
+        "notes": "",
+        "role": "@random",
+        "characteristics": [],
+        "hp": {},
+        "fear": {},
+        "sympathy": {},
+        "relationship": [],
+        "fearMove": "",
+        "deadMove": "",
+        "moves": []
+      }
+    },
+    "menus": [],
+    "tables": {
+      "roles": "$roles",
+      "characteristics": "$characteristics",
+      "stats": "$stats",
+      "relationship": "$relationship",
+      "fearMove": "$fearMove",
+      "deadMove": "$deadMove",
+      "baseMoves": "$baseMoves",
+      "moves": "$moves"
+    }
+  }
+}
