@@ -1,6 +1,6 @@
 {
   "status": "alpha",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "identifier": "$identifier",
   "name": "$name",
   "img": "/HorrorMovieWorld/logo.jpg",
@@ -32,7 +32,8 @@
       "fearMove": "$fearMove",
       "deadMove": "$deadMove",
       "baseMoves": "$baseMoves",
-      "moves": "$moves"
+      "moves": "$moves",
+      "special": "special"
     }
   }
 }

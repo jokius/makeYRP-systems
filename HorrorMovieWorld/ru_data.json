@@ -15,6 +15,48 @@
       "name": "Выживший",
       "description": "Мрачный, закаленный и травмированный. Выживший некогда столкнулся с подлинным кошмаром и уцелел, но ценой выживания стала его душа. Он идет по жизни, страшась следующей встречи со злом. Встречи, которая неотвратима и неизбежна.",
       "examples": "Любой персонаж из предыдущего фильма. Последний солдат своего взвода. Молчаливая монахиня."
+    },
+    "jock": {
+      "key": "jock",
+      "name": "Качок",
+      "description": "Грубый, мужественный, статный и неотесанный. Качок купается в славе и поклонении благодаря своей силе и крутости. Он самый сильный, самый быстрый и самый четкий сукин сын на целой земле, и горе тем, кто захочет его поиметь! По крайней мере, так думает сам Качок.",
+      "examples": "Нападающий школьной команды по футболу. Охранник ночной смены. Разведенный муж."
+    },
+    "innocent": {
+      "key": "innocent",
+      "name": "Качок",
+      "description": "Скромный, стеснительный, храбрый и ответственный. На Невинного всегда можно положиться, а робкие манеры скрывают смелость перед лицом опасности. Увы, люди часто склонны считать Невинного незрелым, наивным и не значительным. Поэтому к его мнению редко прислушиваются, и ему сложнее убедить других в своей правоте.",
+      "examples": "Молодая мать-одиночка. Ученый-идеалист. Лучшая студентка в общежитии."
+    },
+    "loner": {
+      "key": "loner",
+      "name": "Одиночка",
+      "description": "Непредсказуемый, необычный и удивляющий. Одиночка всегда представляет некое меньшинство и часто держится в стороне. Никто не знает, чего от него ждать. Умрет ли он первым или спасет всех остальных? Он беспомощный клоун или самый крутой персонаж в фильме? Кто знает.",
+      "examples": "Единственный русский на американской полярной станции. Единственный гомосексуалист в военном училище. Единственный готна всю школу."
+    },
+    "child": {
+      "key": "child",
+      "name": "Ребенок",
+      "description": "Милый, странный, внушаемый и чувствительный. Дети очень восприимчивы и часто становятся добычей для сил зла, так что взрослым приходится их защищать и спасать. Но как бы слабы они ни были, дети также очень наблюдательны и обладают мощным потенциалом.",
+      "examples": "Внебрачный ребенок. Взятый из приюта сирота."
+    },
+    "chicken": {
+      "key": "chicken",
+      "name": "Цыпочка",
+      "description": "Тщеславная, сексуальная, дерзкая и популярная. Цыпочка притягивает внимание в любой компании и всегда добивается своего. Но вселенная ужасов почему-то ненавидит красивых успешных людей, поэтому Цыпочка часто оказывается в опасности.",
+      "examples": "Самая богатая девушка школы. Успешный бизнесмен. Порнозвезда."
+    },
+    "sheriff": {
+      "key": "sheriff",
+      "name": "Шериф",
+      "description": "Скрупулезный, приземленный, методичный и туповатый. Работа Шерифа — охранять закон и порядок. И неважно, нарушили его глупые пьяные детишки или до усрачки страшные твари из потаенных кошмаров.",
+      "examples": "Рейнджер в национальном парке. Офицер космических морпехов. Глава офисной службы безопасности."
+    },
+    "exorcist": {
+      "key": "exorcist",
+      "name": "Экзорцист",
+      "description": "Мудрый, загадочный и искренне верующий. Экзорцист не сталкивается со злом случайно: он сам идет на битву со злом, чтобы разить порождения мрака тайным знанием и могуществом веры.",
+      "examples": "Католический священник. Старая цыганка. Чародей вуду."
     }
   },
   "characteristics": {
@@ -67,25 +109,37 @@
             "name": "Тело",
             "type": "body",
             "value": -1,
-            "injury": false
+            "injury": {
+              "enable": false,
+              "name": "Увечье"
+            }
           },
           {
             "name": "Храбрость",
             "type": "bravery",
             "value": 0,
-            "injury": false
+            "injury": {
+              "enable": false,
+              "name": "Паника"
+            }
           },
           {
             "name": "Обаяние",
             "type": "charm",
             "value": 1,
-            "injury": false
+            "injury": {
+              "enable": false,
+              "name": "Уродство"
+            }
           },
           {
             "name": "Мозги",
             "type": "brain",
             "value": 2,
-            "injury": false
+            "injury": {
+              "enable": false,
+              "name": "Шок"
+            }
           }
         ]
       },
@@ -96,25 +150,37 @@
             "name": "Тело",
             "type": "body",
             "value": 0,
-            "injury": false
+            "injury": {
+              "enable": false,
+              "name": "Увечье"
+            }
           },
           {
             "name": "Храбрость",
             "type": "bravery",
             "value": 1,
-            "injury": false
+            "injury": {
+              "enable": false,
+              "name": "Паника"
+            }
           },
           {
             "name": "Обаяние",
             "type": "charm",
             "value": -1,
-            "injury": false
+            "injury": {
+              "enable": false,
+              "name": "Уродство"
+            }
           },
           {
             "name": "Мозги",
             "type": "brain",
             "value": 2,
-            "injury": false
+            "injury": {
+              "enable": false,
+              "name": "Шок"
+            }
           }
         ]
       },
@@ -125,25 +191,37 @@
             "name": "Тело",
             "type": "body",
             "value": 0,
-            "injury": false
+            "injury": {
+              "enable": false,
+              "name": "Увечье"
+            }
           },
           {
             "name": "Храбрость",
             "type": "bravery",
             "value": 0,
-            "injury": false
+            "injury": {
+              "enable": false,
+              "name": "Паника"
+            }
           },
           {
             "name": "Обаяние",
             "type": "charm",
             "value": 0,
-            "injury": false
+            "injury": {
+              "enable": false,
+              "name": "Уродство"
+            }
           },
           {
             "name": "Мозги",
             "type": "brain",
             "value": 2,
-            "injury": false
+            "injury": {
+              "enable": false,
+              "name": "Шок"
+            }
           }
         ]
       }
@@ -197,25 +275,37 @@
             "name": "Тело",
             "type": "body",
             "value": -1,
-            "injury": false
+            "injury": {
+              "enable": false,
+              "name": "Увечье"
+            }
           },
           {
             "name": "Храбрость",
             "type": "bravery",
             "value": 2,
-            "injury": false
+            "injury": {
+              "enable": false,
+              "name": "Паника"
+            }
           },
           {
             "name": "Обаяние",
             "type": "charm",
             "value": 0,
-            "injury": false
+            "injury": {
+              "enable": false,
+              "name": "Уродство"
+            }
           },
           {
             "name": "Мозги",
             "type": "brain",
             "value": 1,
-            "injury": false
+            "injury": {
+              "enable": false,
+              "name": "Шок"
+            }
           }
         ]
       },
@@ -226,25 +316,37 @@
             "name": "Тело",
             "type": "body",
             "value": 0,
-            "injury": false
+            "injury": {
+              "enable": false,
+              "name": "Увечье"
+            }
           },
           {
             "name": "Храбрость",
             "type": "bravery",
             "value": 2,
-            "injury": false
+            "injury": {
+              "enable": false,
+              "name": "Паника"
+            }
           },
           {
             "name": "Обаяние",
             "type": "charm",
             "value": -1,
-            "injury": false
+            "injury": {
+              "enable": false,
+              "name": "Уродство"
+            }
           },
           {
             "name": "Мозги",
             "type": "brain",
             "value": 1,
-            "injury": false
+            "injury": {
+              "enable": false,
+              "name": "Шок"
+            }
           }
         ]
       },
@@ -255,25 +357,1158 @@
             "name": "Тело",
             "type": "body",
             "value": 0,
-            "injury": false
+            "injury": {
+              "enable": false,
+              "name": "Увечье"
+            }
           },
           {
             "name": "Храбрость",
             "type": "bravery",
             "value": 2,
-            "injury": false
+            "injury": {
+              "enable": false,
+              "name": "Паника"
+            }
           },
           {
             "name": "Обаяние",
             "type": "charm",
             "value": 0,
-            "injury": false
+            "injury": {
+              "enable": false,
+              "name": "Уродство"
+            }
           },
           {
             "name": "Мозги",
             "type": "brain",
             "value": 0,
-            "injury": false
+            "injury": {
+              "enable": false,
+              "name": "Шок"
+            }
+          }
+        ]
+      }
+    ],
+    "jock": [
+      {
+        "text": "Тело 2, Храбрость 0, Обаяние 1, Мозги -1",
+        "value": [
+          {
+            "name": "Тело",
+            "type": "body",
+            "value": 2,
+            "injury": {
+              "enable": false,
+              "name": "Увечье"
+            }
+          },
+          {
+            "name": "Храбрость",
+            "type": "bravery",
+            "value": 0,
+            "injury": {
+              "enable": false,
+              "name": "Паника"
+            }
+          },
+          {
+            "name": "Обаяние",
+            "type": "charm",
+            "value": 1,
+            "injury": {
+              "enable": false,
+              "name": "Уродство"
+            }
+          },
+          {
+            "name": "Мозги",
+            "type": "brain",
+            "value": -1,
+            "injury": {
+              "enable": false,
+              "name": "Шок"
+            }
+          }
+        ]
+      },
+      {
+        "text": "Тело 2, Храбрость 1, Обаяние 0, Мозги -1",
+        "value": [
+          {
+            "name": "Тело",
+            "type": "body",
+            "value": 2,
+            "injury": {
+              "enable": false,
+              "name": "Увечье"
+            }
+          },
+          {
+            "name": "Храбрость",
+            "type": "bravery",
+            "value": 1,
+            "injury": {
+              "enable": false,
+              "name": "Паника"
+            }
+          },
+          {
+            "name": "Обаяние",
+            "type": "charm",
+            "value": 0,
+            "injury": {
+              "enable": false,
+              "name": "Уродство"
+            }
+          },
+          {
+            "name": "Мозги",
+            "type": "brain",
+            "value": -1,
+            "injury": {
+              "enable": false,
+              "name": "Шок"
+            }
+          }
+        ]
+      },
+      {
+        "text": "Тело 2, Храбрость -1, Обаяние 1, Мозги 0",
+        "value": [
+          {
+            "name": "Тело",
+            "type": "body",
+            "value": 2,
+            "injury": {
+              "enable": false,
+              "name": "Увечье"
+            }
+          },
+          {
+            "name": "Храбрость",
+            "type": "bravery",
+            "value": -1,
+            "injury": {
+              "enable": false,
+              "name": "Паника"
+            }
+          },
+          {
+            "name": "Обаяние",
+            "type": "charm",
+            "value": 1,
+            "injury": {
+              "enable": false,
+              "name": "Уродство"
+            }
+          },
+          {
+            "name": "Мозги",
+            "type": "brain",
+            "value": 0,
+            "injury": {
+              "enable": false,
+              "name": "Шок"
+            }
+          }
+        ]
+      },
+      {
+        "text": "Тело 2, Храбрость 0, Обаяние 0, Мозги 0",
+        "value": [
+          {
+            "name": "Тело",
+            "type": "body",
+            "value": 2,
+            "injury": {
+              "enable": false,
+              "name": "Увечье"
+            }
+          },
+          {
+            "name": "Храбрость",
+            "type": "bravery",
+            "value": 0,
+            "injury": {
+              "enable": false,
+              "name": "Паника"
+            }
+          },
+          {
+            "name": "Обаяние",
+            "type": "charm",
+            "value": 0,
+            "injury": {
+              "enable": false,
+              "name": "Уродство"
+            }
+          },
+          {
+            "name": "Мозги",
+            "type": "brain",
+            "value": 0,
+            "injury": {
+              "enable": false,
+              "name": "Шок"
+            }
+          }
+        ]
+      }
+    ],
+    "innocent": [
+      {
+        "text": "Тело 1, Храбрость 2, Обаяние -1, Мозги 0",
+        "value": [
+          {
+            "name": "Тело",
+            "type": "body",
+            "value": 1,
+            "injury": {
+              "enable": false,
+              "name": "Увечье"
+            }
+          },
+          {
+            "name": "Храбрость",
+            "type": "bravery",
+            "value": 2,
+            "injury": {
+              "enable": false,
+              "name": "Паника"
+            }
+          },
+          {
+            "name": "Обаяние",
+            "type": "charm",
+            "value": -1,
+            "injury": {
+              "enable": false,
+              "name": "Уродство"
+            }
+          },
+          {
+            "name": "Мозги",
+            "type": "brain",
+            "value": 0,
+            "injury": {
+              "enable": false,
+              "name": "Шок"
+            }
+          }
+        ]
+      },
+      {
+        "text": "Тело -1, Храбрость 2, Обаяние 0, Мозги 1",
+        "value": [
+          {
+            "name": "Тело",
+            "type": "body",
+            "value": -1,
+            "injury": {
+              "enable": false,
+              "name": "Увечье"
+            }
+          },
+          {
+            "name": "Храбрость",
+            "type": "bravery",
+            "value": 2,
+            "injury": {
+              "enable": false,
+              "name": "Паника"
+            }
+          },
+          {
+            "name": "Обаяние",
+            "type": "charm",
+            "value": 0,
+            "injury": {
+              "enable": false,
+              "name": "Уродство"
+            }
+          },
+          {
+            "name": "Мозги",
+            "type": "brain",
+            "value": 1,
+            "injury": {
+              "enable": false,
+              "name": "Шок"
+            }
+          }
+        ]
+      },
+      {
+        "text": "Тело 0, Храбрость 2, Обаяние -1, Мозги 1",
+        "value": [
+          {
+            "name": "Тело",
+            "type": "body",
+            "value": 0,
+            "injury": {
+              "enable": false,
+              "name": "Увечье"
+            }
+          },
+          {
+            "name": "Храбрость",
+            "type": "bravery",
+            "value": 2,
+            "injury": {
+              "enable": false,
+              "name": "Паника"
+            }
+          },
+          {
+            "name": "Обаяние",
+            "type": "charm",
+            "value": -1,
+            "injury": {
+              "enable": false,
+              "name": "Уродство"
+            }
+          },
+          {
+            "name": "Мозги",
+            "type": "brain",
+            "value": 1,
+            "injury": {
+              "enable": false,
+              "name": "Шок"
+            }
+          }
+        ]
+      },
+      {
+        "text": "Тело 0, Храбрость 2, Обаяние 0, Мозги 0",
+        "value": [
+          {
+            "name": "Тело",
+            "type": "body",
+            "value": 0,
+            "injury": {
+              "enable": false,
+              "name": "Увечье"
+            }
+          },
+          {
+            "name": "Храбрость",
+            "type": "bravery",
+            "value": 2,
+            "injury": {
+              "enable": false,
+              "name": "Паника"
+            }
+          },
+          {
+            "name": "Обаяние",
+            "type": "charm",
+            "value": 0,
+            "injury": {
+              "enable": false,
+              "name": "Уродство"
+            }
+          },
+          {
+            "name": "Мозги",
+            "type": "brain",
+            "value": 0,
+            "injury": {
+              "enable": false,
+              "name": "Шок"
+            }
+          }
+        ]
+      }
+    ],
+    "loner": [
+      {
+        "text": "Тело 2, Храбрость 0, Обаяние 1, Мозги -1",
+        "value": [
+          {
+            "name": "Тело",
+            "type": "body",
+            "value": 2,
+            "injury": {
+              "enable": false,
+              "name": "Увечье"
+            }
+          },
+          {
+            "name": "Храбрость",
+            "type": "bravery",
+            "value": 0,
+            "injury": {
+              "enable": false,
+              "name": "Паника"
+            }
+          },
+          {
+            "name": "Обаяние",
+            "type": "charm",
+            "value": 1,
+            "injury": {
+              "enable": false,
+              "name": "Уродство"
+            }
+          },
+          {
+            "name": "Мозги",
+            "type": "brain",
+            "value": -1,
+            "injury": {
+              "enable": false,
+              "name": "Шок"
+            }
+          }
+        ]
+      },
+      {
+        "text": "Тело -1, Храбрость 2, Обаяние 0, Мозги 1",
+        "value": [
+          {
+            "name": "Тело",
+            "type": "body",
+            "value": -1,
+            "injury": {
+              "enable": false,
+              "name": "Увечье"
+            }
+          },
+          {
+            "name": "Храбрость",
+            "type": "bravery",
+            "value": 2,
+            "injury": {
+              "enable": false,
+              "name": "Паника"
+            }
+          },
+          {
+            "name": "Обаяние",
+            "type": "charm",
+            "value": 0,
+            "injury": {
+              "enable": false,
+              "name": "Уродство"
+            }
+          },
+          {
+            "name": "Мозги",
+            "type": "brain",
+            "value": 1,
+            "injury": {
+              "enable": false,
+              "name": "Шок"
+            }
+          }
+        ]
+      },
+      {
+        "text": "Тело 0, Храбрость -1, Обаяние 2, Мозги 1",
+        "value": [
+          {
+            "name": "Тело",
+            "type": "body",
+            "value": 0,
+            "injury": {
+              "enable": false,
+              "name": "Увечье"
+            }
+          },
+          {
+            "name": "Храбрость",
+            "type": "bravery",
+            "value": -1,
+            "injury": {
+              "enable": false,
+              "name": "Паника"
+            }
+          },
+          {
+            "name": "Обаяние",
+            "type": "charm",
+            "value": 2,
+            "injury": {
+              "enable": false,
+              "name": "Уродство"
+            }
+          },
+          {
+            "name": "Мозги",
+            "type": "brain",
+            "value": 1,
+            "injury": {
+              "enable": false,
+              "name": "Шок"
+            }
+          }
+        ]
+      },
+      {
+        "text": "Тело 0, Храбрость 1, Обаяние -1, Мозги 2",
+        "value": [
+          {
+            "name": "Тело",
+            "type": "body",
+            "value": 0,
+            "injury": {
+              "enable": false,
+              "name": "Увечье"
+            }
+          },
+          {
+            "name": "Храбрость",
+            "type": "bravery",
+            "value": 1,
+            "injury": {
+              "enable": false,
+              "name": "Паника"
+            }
+          },
+          {
+            "name": "Обаяние",
+            "type": "charm",
+            "value": -1,
+            "injury": {
+              "enable": false,
+              "name": "Уродство"
+            }
+          },
+          {
+            "name": "Мозги",
+            "type": "brain",
+            "value": 2,
+            "injury": {
+              "enable": false,
+              "name": "Шок"
+            }
+          }
+        ]
+      }
+    ],
+    "child": [
+      {
+        "text": "Тело -1, Храбрость 0, Обаяние 2, Мозги 1",
+        "value": [
+          {
+            "name": "Тело",
+            "type": "body",
+            "value": -1,
+            "injury": {
+              "enable": false,
+              "name": "Увечье"
+            }
+          },
+          {
+            "name": "Храбрость",
+            "type": "bravery",
+            "value": 0,
+            "injury": {
+              "enable": false,
+              "name": "Паника"
+            }
+          },
+          {
+            "name": "Обаяние",
+            "type": "charm",
+            "value": 2,
+            "injury": {
+              "enable": false,
+              "name": "Уродство"
+            }
+          },
+          {
+            "name": "Мозги",
+            "type": "brain",
+            "value": 1,
+            "injury": {
+              "enable": false,
+              "name": "Шок"
+            }
+          }
+        ]
+      },
+      {
+        "text": "Тело -1, Храбрость 1, Обаяние 2, Мозги 0",
+        "value": [
+          {
+            "name": "Тело",
+            "type": "body",
+            "value": -1,
+            "injury": {
+              "enable": false,
+              "name": "Увечье"
+            }
+          },
+          {
+            "name": "Храбрость",
+            "type": "bravery",
+            "value": 1,
+            "injury": {
+              "enable": false,
+              "name": "Паника"
+            }
+          },
+          {
+            "name": "Обаяние",
+            "type": "charm",
+            "value": 2,
+            "injury": {
+              "enable": false,
+              "name": "Уродство"
+            }
+          },
+          {
+            "name": "Мозги",
+            "type": "brain",
+            "value": 0,
+            "injury": {
+              "enable": false,
+              "name": "Шок"
+            }
+          }
+        ]
+      },
+      {
+        "text": "Тело -1, Храбрость 0, Обаяние 1, Мозги 2",
+        "value": [
+          {
+            "name": "Тело",
+            "type": "body",
+            "value": -1,
+            "injury": {
+              "enable": false,
+              "name": "Увечье"
+            }
+          },
+          {
+            "name": "Храбрость",
+            "type": "bravery",
+            "value": 0,
+            "injury": {
+              "enable": false,
+              "name": "Паника"
+            }
+          },
+          {
+            "name": "Обаяние",
+            "type": "charm",
+            "value": 1,
+            "injury": {
+              "enable": false,
+              "name": "Уродство"
+            }
+          },
+          {
+            "name": "Мозги",
+            "type": "brain",
+            "value": 2,
+            "injury": {
+              "enable": false,
+              "name": "Шок"
+            }
+          }
+        ]
+      }
+    ],
+    "chicken": [
+      {
+        "text": "Тело 1, Храбрость -1, Обаяние 2, Мозги 0",
+        "value": [
+          {
+            "name": "Тело",
+            "type": "body",
+            "value": 1,
+            "injury": {
+              "enable": false,
+              "name": "Увечье"
+            }
+          },
+          {
+            "name": "Храбрость",
+            "type": "bravery",
+            "value": -1,
+            "injury": {
+              "enable": false,
+              "name": "Паника"
+            }
+          },
+          {
+            "name": "Обаяние",
+            "type": "charm",
+            "value": 2,
+            "injury": {
+              "enable": false,
+              "name": "Уродство"
+            }
+          },
+          {
+            "name": "Мозги",
+            "type": "brain",
+            "value": 0,
+            "injury": {
+              "enable": false,
+              "name": "Шок"
+            }
+          }
+        ]
+      },
+      {
+        "text": "Тело 0, Храбрость -1, Обаяние 2, Мозги 1",
+        "value": [
+          {
+            "name": "Тело",
+            "type": "body",
+            "value": 0,
+            "injury": {
+              "enable": false,
+              "name": "Увечье"
+            }
+          },
+          {
+            "name": "Храбрость",
+            "type": "bravery",
+            "value": -1,
+            "injury": {
+              "enable": false,
+              "name": "Паника"
+            }
+          },
+          {
+            "name": "Обаяние",
+            "type": "charm",
+            "value": 2,
+            "injury": {
+              "enable": false,
+              "name": "Уродство"
+            }
+          },
+          {
+            "name": "Мозги",
+            "type": "brain",
+            "value": 1,
+            "injury": {
+              "enable": false,
+              "name": "Шок"
+            }
+          }
+        ]
+      },
+      {
+        "text": "Тело 1, Храбрость 0, Обаяние 2, Мозги -1",
+        "value": [
+          {
+            "name": "Тело",
+            "type": "body",
+            "value": 1,
+            "injury": {
+              "enable": false,
+              "name": "Увечье"
+            }
+          },
+          {
+            "name": "Храбрость",
+            "type": "bravery",
+            "value": 0,
+            "injury": {
+              "enable": false,
+              "name": "Паника"
+            }
+          },
+          {
+            "name": "Обаяние",
+            "type": "charm",
+            "value": 2,
+            "injury": {
+              "enable": false,
+              "name": "Уродство"
+            }
+          },
+          {
+            "name": "Мозги",
+            "type": "brain",
+            "value": -1,
+            "injury": {
+              "enable": false,
+              "name": "Шок"
+            }
+          }
+        ]
+      },
+      {
+        "text": "Тело 0, Храбрость 0, Обаяние 2, Мозги 0",
+        "value": [
+          {
+            "name": "Тело",
+            "type": "body",
+            "value": 0,
+            "injury": {
+              "enable": false,
+              "name": "Увечье"
+            }
+          },
+          {
+            "name": "Храбрость",
+            "type": "bravery",
+            "value": 0,
+            "injury": {
+              "enable": false,
+              "name": "Паника"
+            }
+          },
+          {
+            "name": "Обаяние",
+            "type": "charm",
+            "value": 2,
+            "injury": {
+              "enable": false,
+              "name": "Уродство"
+            }
+          },
+          {
+            "name": "Мозги",
+            "type": "brain",
+            "value": 0,
+            "injury": {
+              "enable": false,
+              "name": "Шок"
+            }
+          }
+        ]
+      }
+    ],
+    "sheriff": [
+      {
+        "text": "Тело 2, Храбрость 1, Обаяние 0, Мозги -1",
+        "value": [
+          {
+            "name": "Тело",
+            "type": "body",
+            "value": 2,
+            "injury": {
+              "enable": false,
+              "name": "Увечье"
+            }
+          },
+          {
+            "name": "Храбрость",
+            "type": "bravery",
+            "value": 1,
+            "injury": {
+              "enable": false,
+              "name": "Паника"
+            }
+          },
+          {
+            "name": "Обаяние",
+            "type": "charm",
+            "value": 0,
+            "injury": {
+              "enable": false,
+              "name": "Уродство"
+            }
+          },
+          {
+            "name": "Мозги",
+            "type": "brain",
+            "value": -1,
+            "injury": {
+              "enable": false,
+              "name": "Шок"
+            }
+          }
+        ]
+      },
+      {
+        "text": "Тело 2, Храбрость 1, Обаяние -1, Мозги 0",
+        "value": [
+          {
+            "name": "Тело",
+            "type": "body",
+            "value": 2,
+            "injury": {
+              "enable": false,
+              "name": "Увечье"
+            }
+          },
+          {
+            "name": "Храбрость",
+            "type": "bravery",
+            "value": 1,
+            "injury": {
+              "enable": false,
+              "name": "Паника"
+            }
+          },
+          {
+            "name": "Обаяние",
+            "type": "charm",
+            "value": -1,
+            "injury": {
+              "enable": false,
+              "name": "Уродство"
+            }
+          },
+          {
+            "name": "Мозги",
+            "type": "brain",
+            "value": 0,
+            "injury": {
+              "enable": false,
+              "name": "Шок"
+            }
+          }
+        ]
+      },
+      {
+        "text": "Тело 2, Храбрость 0, Обаяние 1, Мозги -1",
+        "value": [
+          {
+            "name": "Тело",
+            "type": "body",
+            "value": 2,
+            "injury": {
+              "enable": false,
+              "name": "Увечье"
+            }
+          },
+          {
+            "name": "Храбрость",
+            "type": "bravery",
+            "value": 0,
+            "injury": {
+              "enable": false,
+              "name": "Паника"
+            }
+          },
+          {
+            "name": "Обаяние",
+            "type": "charm",
+            "value": 1,
+            "injury": {
+              "enable": false,
+              "name": "Уродство"
+            }
+          },
+          {
+            "name": "Мозги",
+            "type": "brain",
+            "value": -1,
+            "injury": {
+              "enable": false,
+              "name": "Шок"
+            }
+          }
+        ]
+      },
+      {
+        "text": "Тело 2, Храбрость 0, Обаяние 1, Мозги -1",
+        "value": [
+          {
+            "name": "Тело",
+            "type": "body",
+            "value": 2,
+            "injury": {
+              "enable": false,
+              "name": "Увечье"
+            }
+          },
+          {
+            "name": "Храбрость",
+            "type": "bravery",
+            "value": 0,
+            "injury": {
+              "enable": false,
+              "name": "Паника"
+            }
+          },
+          {
+            "name": "Обаяние",
+            "type": "charm",
+            "value": 1,
+            "injury": {
+              "enable": false,
+              "name": "Уродство"
+            }
+          },
+          {
+            "name": "Мозги",
+            "type": "brain",
+            "value": -1,
+            "injury": {
+              "enable": false,
+              "name": "Шок"
+            }
+          }
+        ]
+      }
+    ],
+    "exorcist": [
+      {
+        "text": "Тело -1, Храбрость 0, Обаяние 1, Мозги 2",
+        "value": [
+          {
+            "name": "Тело",
+            "type": "body",
+            "value": -1,
+            "injury": {
+              "enable": false,
+              "name": "Увечье"
+            }
+          },
+          {
+            "name": "Храбрость",
+            "type": "bravery",
+            "value": 0,
+            "injury": {
+              "enable": false,
+              "name": "Паника"
+            }
+          },
+          {
+            "name": "Обаяние",
+            "type": "charm",
+            "value": 1,
+            "injury": {
+              "enable": false,
+              "name": "Уродство"
+            }
+          },
+          {
+            "name": "Мозги",
+            "type": "brain",
+            "value": 2,
+            "injury": {
+              "enable": false,
+              "name": "Шок"
+            }
+          }
+        ]
+      },
+      {
+        "text": "Тело -1, Храбрость 1, Обаяние 0, Мозги 2",
+        "value": [
+          {
+            "name": "Тело",
+            "type": "body",
+            "value": -1,
+            "injury": {
+              "enable": false,
+              "name": "Увечье"
+            }
+          },
+          {
+            "name": "Храбрость",
+            "type": "bravery",
+            "value": 1,
+            "injury": {
+              "enable": false,
+              "name": "Паника"
+            }
+          },
+          {
+            "name": "Обаяние",
+            "type": "charm",
+            "value": 0,
+            "injury": {
+              "enable": false,
+              "name": "Уродство"
+            }
+          },
+          {
+            "name": "Мозги",
+            "type": "brain",
+            "value": 2,
+            "injury": {
+              "enable": false,
+              "name": "Шок"
+            }
+          }
+        ]
+      },
+      {
+        "text": "Тело 0, Храбрость 1, Обаяние -1, Мозги 2",
+        "value": [
+          {
+            "name": "Тело",
+            "type": "body",
+            "value": 0,
+            "injury": {
+              "enable": false,
+              "name": "Увечье"
+            }
+          },
+          {
+            "name": "Храбрость",
+            "type": "bravery",
+            "value": 1,
+            "injury": {
+              "enable": false,
+              "name": "Паника"
+            }
+          },
+          {
+            "name": "Обаяние",
+            "type": "charm",
+            "value": -1,
+            "injury": {
+              "enable": false,
+              "name": "Уродство"
+            }
+          },
+          {
+            "name": "Мозги",
+            "type": "brain",
+            "value": 2,
+            "injury": {
+              "enable": false,
+              "name": "Шок"
+            }
+          }
+        ]
+      },
+      {
+        "text": "Тело 0, Храбрость 0, Обаяние 0, Мозги 2",
+        "value": [
+          {
+            "name": "Тело",
+            "type": "body",
+            "value": 0,
+            "injury": {
+              "enable": false,
+              "name": "Увечье"
+            }
+          },
+          {
+            "name": "Храбрость",
+            "type": "bravery",
+            "value": 0,
+            "injury": {
+              "enable": false,
+              "name": "Паника"
+            }
+          },
+          {
+            "name": "Обаяние",
+            "type": "charm",
+            "value": 0,
+            "injury": {
+              "enable": false,
+              "name": "Уродство"
+            }
+          },
+          {
+            "name": "Мозги",
+            "type": "brain",
+            "value": 2,
+            "injury": {
+              "enable": false,
+              "name": "Шок"
+            }
           }
         ]
       }
@@ -301,6 +1536,97 @@
       "fear": {
         "current": 0,
         "max": 2
+      },
+      "sympathy": {
+        "current": 0
+      }
+    },
+    "jock": {
+      "hp": {
+        "current": 0,
+        "max": 3
+      },
+      "fear": {
+        "current": 0,
+        "max": 2
+      },
+      "sympathy": {
+        "current": 0
+      }
+    },
+    "innocent": {
+      "hp": {
+        "current": 0,
+        "max": 2
+      },
+      "fear": {
+        "current": 0,
+        "max": 3
+      },
+      "sympathy": {
+        "current": 0
+      }
+    },
+    "loner": {
+      "hp": {
+        "current": 0,
+        "max": 2
+      },
+      "fear": {
+        "current": 0,
+        "max": 3
+      },
+      "sympathy": {
+        "current": 0
+      }
+    },
+    "child": {
+      "hp": {
+        "current": 0,
+        "max": 1
+      },
+      "fear": {
+        "current": 0,
+        "max": 4
+      },
+      "sympathy": {
+        "current": 0
+      }
+    },
+    "chicken": {
+      "hp": {
+        "current": 0,
+        "max": 2
+      },
+      "fear": {
+        "current": 0,
+        "max": 3
+      },
+      "sympathy": {
+        "current": 0
+      }
+    },
+    "sheriff": {
+      "hp": {
+        "current": 0,
+        "max": 3
+      },
+      "fear": {
+        "current": 0,
+        "max": 2
+      },
+      "sympathy": {
+        "current": 0
+      }
+    },
+    "exorcist": {
+      "hp": {
+        "current": 0,
+        "max": 1
+      },
+      "fear": {
+        "current": 0,
+        "max": 4
       },
       "sympathy": {
         "current": 0
@@ -371,15 +1697,253 @@
         "value": "",
         "last": "влечет друг к другу. Скажи, знает ли он о твоем прошлом."
       }
+    ],
+    "jock": [
+      {
+        "first": "Вы с",
+        "value": "",
+        "last": "были близки до начала того кошмара, но потом надолго расстались. Спроси, почему вы вновь встретились теперь."
+      },
+      {
+        "first": "Неразумие",
+        "value": "",
+        "last": "позволило злу из твоего прошлого вернуться."
+      },
+      {
+        "first": "",
+        "value": "",
+        "last": "напоминает тебе тебя же в прошлом. Расскажи, в чем именно вы схожи."
+      },
+      {
+        "first": "",
+        "value": "",
+        "last": "твой ребенок или младший друг, и ты обязан защищать его."
+      },
+      {
+        "first": "",
+        "value": "",
+        "last": "не верит, что твоя история на самом деле так ужасна. Спроси, почему тебе не верят."
+      },
+      {
+        "first": "Вас с",
+        "value": "",
+        "last": "влечет друг к другу. Скажи, знает ли он о твоем прошлом."
+      }
+    ],
+    "innocent": [
+      {
+        "first": "Ты влюблен в",
+        "value": "",
+        "last": ", но это чувство не взаимно."
+      },
+      {
+        "first": "Ты обещал отдать",
+        "value": "",
+        "last": "свою невинность. Расскажи, почему."
+      },
+      {
+        "first": "",
+        "value": "",
+        "last": "твой старший родственник или товарищ, которому ты полностью доверяешь."
+      },
+      {
+        "first": "",
+        "value": "",
+        "last": "твой надоедливый родственник. Спроси, почему вы не ладите."
+      },
+      {
+        "first": "Ты вытаскиваешь",
+        "value": "",
+        "last": "из неприятностей. Спроси, в чем обычно заключаются неприятности."
+      },
+      {
+        "first": "Вы с",
+        "value": "",
+        "last": "заклятые соперники. Спроси, в чем причина вашего соперничества."
+      }
+    ],
+    "loner": [
+      {
+        "first": "",
+        "value": "",
+        "last": "не выносит твою расу, страну, сексуальную ориентацию и т.д., а ты не выносишь его."
+      },
+      {
+        "first": "",
+        "value": "",
+        "last": "доставил тебе проблемы, но так и не извинился. Расскажи, что за проблемы у тебя были из-за него."
+      },
+      {
+        "first": "",
+        "value": "",
+        "last": "защищает тебя от наездов и приставаний других."
+      },
+      {
+        "first": "",
+        "value": "",
+        "last": "не справится с серьезным дерьмом, так что ты присматриваешь за ним."
+      },
+      {
+        "first": "Тебе пришлось как-то поставить",
+        "value": "",
+        "last": "на место, и вы до сих пор на ножах."
+      },
+      {
+        "first": "",
+        "value": "",
+        "last": "интересуется тобой и твоей уникальностью, но ты пока не готов сблизиться с ним."
+      }
+    ],
+    "child": [
+      {
+        "first": "",
+        "value": "",
+        "last": "растит и любит тебя, но ты боишься рассказать ему о чем-то. Скажи, что у тебя за секрет."
+      },
+      {
+        "first": "",
+        "value": "",
+        "last": "твой сверстник, и у вас есть общая тайна. Расскажи, что это за тайна."
+      },
+      {
+        "first": "",
+        "value": "",
+        "last": "твой друг, который не нравится старшим. Спроси, чем он не угодил."
+      },
+      {
+        "first": "У вас с",
+        "value": "",
+        "last": "мощная мистическая связь, действующая даже на расстоянии."
+      },
+      {
+        "first": "",
+        "value": "",
+        "last": "твой старший брат или сестра, с которым(ой) вы что-то не поделили. Спроси, что именно."
+      },
+      {
+        "first": "Ты идешь к",
+        "value": "",
+        "last": ", когда тебе страшно."
+      }
+    ],
+    "chicken": [
+      {
+        "first": "",
+        "value": "",
+        "last": "втрескался в тебя. Опиши, что ты чувствуешь в ответ."
+      },
+      {
+        "first": "Ты что-то хочешь от",
+        "value": "",
+        "last": ", но он не поддался твоим чарам...пока что. Расскажи, чего ты хочешь."
+      },
+      {
+        "first": "",
+        "value": "",
+        "last": "притворяется твоим другом. Спроси, зачем он притворяется."
+      },
+      {
+        "first": "Ты используешь",
+        "value": "",
+        "last": "в личных целях. Спроси, почему он с этим мирится."
+      },
+      {
+        "first": "",
+        "value": "",
+        "last": "знает твой самый постыдный секрет, но никому ничего не сказал... пока что. Расскажи, что это за секрет, и спроси, почему он молчит."
+      },
+      {
+        "first": "",
+        "value": "",
+        "last": "твоя бывшая пара, с которой у вас было бурное расставание. Скажи, оставил ли ты свои чувства в прошлом, и затем спроси его о том же."
+      }
+    ],
+    "sheriff": [
+      {
+        "first": "Однажды",
+        "value": "",
+        "last": "нарушил закон, и с тех пор ты не доверяешь ему. Спроси, в чем состояло преступление."
+      },
+      {
+        "first": "",
+        "value": "",
+        "last": "твой младший родственник, которого ты должен держать подальше от неприятностей."
+      },
+      {
+        "first": "",
+        "value": "",
+        "last": "помогает тебе с трудными делами. Спроси, в чем заключается помощь."
+      },
+      {
+        "first": "",
+        "value": "",
+        "last": "вмешивается в твою работу и доставляет тебе неприятности. Спроси, что это за неприятности."
+      },
+      {
+        "first": "Ты друг семьи",
+        "value": "",
+        "last": ". Расскажи, почему вы дружны."
+      },
+      {
+        "first": "Ты дал",
+        "value": "",
+        "last": "обещание. Расскажи, что ты обещал. "
+      }
+    ],
+    "exorcist": [
+      {
+        "first": "",
+        "value": "",
+        "last": "обратился к тебе за помощью от отчаяния."
+      },
+      {
+        "first": "",
+        "value": "",
+        "last": "хочет доказать, что ты лжец и шарлатан."
+      },
+      {
+        "first": "Вы вместе столкнулись со страшным испытанием, но ты подвел",
+        "value": "",
+        "last": "Расскажи, как именно."
+      },
+      {
+        "first": "",
+        "value": "",
+        "last": "твой ученик в деле экзорцизма, но учится он медленно и плохо."
+      },
+      {
+        "first": "Ты некогда спас",
+        "value": "",
+        "last": "от чего-то ужасного. Спроси, что это было."
+      },
+      {
+        "first": "Тебе известно страшное пророчество о",
+        "value": "",
+        "last": "."
+      }
     ]
   },
   "fearMove": {
     "nerd": "Когда ты отделяешься от группы, чтобы утолить любопытство, <i>удали пункт страха.</i>",
-    "survivor": "Когда ты открываешься другому игровому персонажу и делишься с ним страшным опытом прошлого, <i>удали пункт страха.</i> При этом твой собеседник теряет <i>очко симпатии.</i>"
+    "survivor": "Когда ты открываешься другому игровому персонажу и делишься с ним страшным опытом прошлого, <i>удали пункт страха.</i> При этом твой собеседник теряет <i>очко симпатии.</i>",
+    "jock": "Когда ты грубым и вызывающим поведением привлекаешь к себе всеобщее внимание, <i>удали пункт страха.</i>",
+    "innocent": "Когда ты прячешься от опасности в замкнутом пространстве, из которого нет безопасного выхода, <i>удали пункт страха.</i>",
+    "loner": "Когда кто-то предлагает план действий, а ты поступаешь наперекор плану или в точности наоборот, <i>удали пункт страха.</i>",
+    "child": "Когда ты предупреждаешь взрослых об опасности странным или зловещим способом, <i>удали пункт страха.</i>",
+    "chicken": "Когда ты игнорируешь странное или подозрительное, чтобы потакать своим желаниям, <i>удали пункт страха.</i>",
+    "sheriff": "Когда ты в одиночку отправляешься расследовать подозрительное или преследовать опасное, <i>удали пункт страха.</i>",
+    "exorcist": "Когда ты открыто вызываешь темную сущность на контакт или противоборство, <i>удали пункт страха.</i>"
   },
   "deadMove": {
     "nerd": "Когда ты умираешь, ты можешь оставить другому персонажу послание или улику, связанную с сюжетом фильма. Выбери персонажа и опиши, как он получает твое послание. Этот персонаж может задать один вопрос, чтобы <b><i>разобраться в ситуации.</i></b>",
-    "survivor": "Когда ты умираешь, добавь своему <b><i>убежищу</i></b> одну <i>положительную</i> черту или удали одну <i>отрицательную</i>. Если никто из персонажей еще не знает о твоем убежище, выбери того персонажа, которому ты сообщил о нем."
+    "survivor": "Когда ты умираешь, добавь своему <b><i>убежищу</i></b> одну <i>положительную</i> черту или удали одну <i>отрицательную</i>. Если никто из персонажей еще не знает о твоем убежище, выбери того персонажа, которому ты сообщил о нем.",
+    "jock": "Когда ты умираешь, ты можешь в последний раз <b><i>наехать</i></b> на угрозу с <i>расходуемым козырем.</i>",
+    "innocent": "Когда ты умираешь, выбери персонажа, которому ты больше всего доверял. Если этот персонаж пытается мстить твоим убийцам, то получает очко симпатии. Если он укрывается или убегает, то теряет очко симпатии.",
+    "loner": "Когда ты умираешь, каждый игрок выбирает, как твоя смерть повлияла на его персонажа. Если персонаж чувствует вину за твою гибель или прошлое отношение к тебе, он получает <i>очко симпатии.</i> Если персонаж не чувствует вины, он получает <i>пункт страха.</i>",
+    "child": "Когда ты умираешь, выбери персонажа, который является для тебя родительской фигурой. Этот персонаж получает 2 <i>пункта страха</i> или теряет все свои <i>очки симпатии</i>, по его выбору.",
+    "chicken": "Когда ты умираешь, выбери персонажа, который услышит твои предсмертные вопли или наткнется на твой труп. От шока этот персонаж получает <i>пункт страха<i/>, но также и <i>расходуемый козырь</i> на следующую попытку <b><i>удрать</i></b> или <b><i>наехать.</i></b>",
+    "sheriff": "Когда ты умираешь, ты мотивируешь своих коллег по службе отомстить за себя. Удали одну <i>отрицательную</i> черту своего <b><i>подкрепления.</i></b>",
+    "exorcist": "Когда ты умираешь, получи 1 <i>шанс</i>. Ты можешь использовать этот <i>шанс</i> из-за могильной завесы, чтобы превратить любой бросок любого персонажа в 10+"
   },
   "baseMoves": [
     {
@@ -488,8 +2052,8 @@
       },
       {
         "enable": false,
-        "name": "Сбежать как писька",
-        "description": "Когда ты спасаешься от опасности вопреки всему (бросая друзей, роняя важную вещь, упуская шанс навредить злу и т.д.), получи <i>постоянный козырь</i> на все попытки <b><i>удрать</i></b>, пока не окажешься в безопасности."
+        "name": "Пора выбираться отсюда!",
+        "description": "Когда ты спасаешься от опасности в ущерб другим (бросая друзей, роняя важную вещь, упуская шанс навредить злу и т.д.), получи <i>постоянный козырь</i> на все попытки <b><i>удрать</i></b>, пока не окажешься в безопасности."
       },
       {
         "enable": false,
@@ -500,11 +2064,6 @@
         "enable": false,
         "name": "Фанат ужастиков",
         "description": "Ты знаешь все клише и все правила, какие помогут выжить в фильме ужасов. Когда ты <b><i>разбираешься в ситуации</i></b> или <b><i>соображаешь на ходу</i></b>, ты можешь добавить к списку эти вопросы.<ul><li>Кто следующим окажется в опасности?</li><li>Какая неприятность может сейчас случиться?</li><li>Что нам точно не надо сейчас делать?</li></ul>"
-      },
-      {
-        "enable": false,
-        "name": "Пора выбираться отсюда!",
-        "description": "Когда ты спасаешься от опасности в ущерб другим (бросая друзей, роняя важную вещь, упуская шанс навредить злу и т.д.), получи <i>постоянный козырь</i> на все попытки <b><i>удрать</i></b>, пока не окажешься в безопасности."
       }
     ],
     "survivor": [
@@ -525,12 +2084,12 @@
       {
         "enable": false,
         "name": "Готовность к реваншу",
-        "description": "Добавь +1 к телу (до максимума +2)."
+        "description": "Когда ты тренируешься до изнеможения, готовясь к следующей встрече со злом, получи <i>расходуемый штраф</i>. Твой следующий бросок с <b><i>напряжением тела</i></b> пройдет без последствий даже при 7-9."
       },
       {
         "enable": false,
         "name": "Не ладит с людьми",
-        "description": "Когда ты <b><i>получаешь что хочешь</i></b> через давление, запугивание и суровый напор, <i>наберись храбрости</i> вместо того, чтобы <i>проявить обаяние.</i>"
+        "description": "Когда ты <b><i>получаешь что хочешь</i></b>, действуя агрессивно и параноидально, потеряй <i>очко симпатии</i> и автоматически получи 10+."
       },
       {
         "enable": false,
@@ -540,6 +2099,272 @@
         "full": "особое оружие у тебя есть и наготове.",
         "part": "особое оружие у тебя есть, но в чем-то неисправно: режиссер расскажет тебе детали.",
         "fail": "зло адаптируется, и режиссер делает ход против тебя. Получи <i>очко симпатии</i>"
+      }
+    ],
+    "jock": [
+      {
+        "enable": false,
+        "name": "Задира",
+        "description": "Когда ты физически унижаешь более слабого персонажа, получи <i>расходуемый козырь</i> за то, каким крутым и сильным ты себя чувствуешь. Если твоей жертвой был персонаж игрока, он получает <i>очко симпатии.</i>"
+      },
+      {
+        "enable": false,
+        "name": "Друг-силач",
+        "description": "Когда ты защищаешь, выручаешь или спасаешь другого персонажа при помощи силы или ловкости, получи <i>очко симпатии.</i>"
+      },
+      {
+        "enable": false,
+        "name": "Поздоровайся с кулаком",
+        "description": "Когда ты <b><i>получаешь что хочешь</i></b> через угрозы, запугивание и насилие, даже на 7-9 ты получаешь это без ответных условий и обязательств. При этом ты теряешь <i>очко симпатии.</i>"
+      },
+      {
+        "enable": false,
+        "name": "Красота атлета",
+        "description": "Когда ты <b><i>получаешь что хочешь</i></b>, выпендриваясь и бравируя, получи <i>расходуемый козырь.</i>"
+      },
+      {
+        "enable": false,
+        "name": "Если я не вернусь...",
+        "description": "Когда твоим физическим способностям брошен смертельно опасный вызов (например, обогнать бешеного оборотня или драться с убийцей-нежитью), получи <i>расходуемый козырь</i>, если примешь вызов, и <i>расходуемый штраф</i>, если отступишься."
+      },
+      {
+        "enable": false,
+        "name": "Кричишь, как девчонка",
+        "description": "Ты реагируешь на страшные вещи трусливо и комично, вопреки своему образу мачо. Когда ты сталкиваешься с чем-то страшным, ты можешь автоматически взять <i>пункт страха</i>, чтобы получить также <i>очко симпатии.</i>"
+      }
+    ],
+    "innocent": [
+      {
+        "enable": true,
+        "name": "Зрительские симпатии",
+        "description": "Тебе нужно потратить только 4 очка симпатии, чтобы <b><i>прийти в себя.</i></b>"
+      },
+      {
+        "enable": false,
+        "name": "Я собираюсь выжить",
+        "description": "Когда ты <b><i>соображаешь на ходу</i></b>, можешь задать еще 1 дополнительный вопрос. Даже при провале, ты можешь задать 1 вопрос, но режиссер сделает <i>ход</i> против тебя."
+      },
+      {
+        "enable": false,
+        "name": "Королева крика",
+        "description": "Когда ты проваливаешь попытку <b><i>удрать</i></b> или <b><i>собраться с силами</i></b>, то испускаешь леденящие душу вопли. За эти провалы ты всегда получаешь 2 <i>очка симпатии</i> вместо одного."
+      },
+      {
+        "enable": false,
+        "name": "Дерись по-умному",
+        "description": "Когда ты используешь подручные предметы или подстраиваешь ловушки, чтобы <b><i>наехать</i></b> на угрозу, <i>напряги мозги</i> вместо <i>тела.</i>"
+      },
+      {
+        "enable": false,
+        "name": "Я тебя не брошу!",
+        "description": "Если ты получаешь <i>урон</i>, защищая близких тебе людей, получи <i>расходуемый козырь.</i>"
+      },
+      {
+        "enable": false,
+        "name": "Final Girl",
+        "description": "Если в живых остались только два игровых персонажа, считая тебя, ты получаешь постоянный козырь на все попытки наехать. Если в живых остаешься только ты, получи также очко симпатии."
+      }
+    ],
+    "loner": [
+      {
+        "enable": true,
+        "name": "Скрытые таланты",
+        "description": "Выбери любой ход Ботана, Цыпочки или Качка.",
+        "textarea": true
+      },
+      {
+        "enable": false,
+        "name": "Один против всех",
+        "description": "Когда ты остаешься один на один с силами зла, получи расходуемый козырь на то, чтобы собраться с силами или наехать."
+      },
+      {
+        "enable": false,
+        "name": "Мой друг где-то там",
+        "description": "Перед началом фильма, напряги мозги.",
+        "type": "brain",
+        "full": "получи 2 <i>шанса.</i>",
+        "part": "получи 1 <i>шанс.</i>",
+        "fail": "режиссер получает 1 <i>шанс</i>, чтобы столкнуть тебя с опасностью неподготовленным и в плохой позиции. Получи <i>очко симпатии</i>",
+        "details": "Используй <i>шанс</i>, чтобы появиться в сцене как раз тогда, когда другой персонаж окажется в опасности, и в удобной позиции, чтобы помочь бедолаге."
+      },
+      {
+        "enable": false,
+        "name": "Не жилец",
+        "description": "Если ты погибаешь, когда у тебя еще остались <i>очки симпатии</i>, можешь отдать одно из них любому персонажу на твой выбор."
+      },
+      {
+        "enable": false,
+        "name": "Невозмутимый изгой",
+        "description": "Когда ты <b><i>собираешься с силами</i></b>, при 10+, ты ведешь себя так стойко и невозмутимо, что вдохновляешь других своим примером. Все, кто находятся рядом с тобой, получают <i>расходуемый козырь.</i>"
+      },
+      {
+        "enable": false,
+        "name": "Попробуй поймай, урод!",
+        "description": "Ты можешь <b><i>получать что хочешь</i></b> от <i>монстров</i>, когда дразнишь и провоцируешь их. В этом случае, при 7-9 ты получаешь не ответные условия, а <i>урон.</i>"
+      }
+    ],
+    "child": [
+      {
+        "enable": false,
+        "name": "Жуткие игры",
+        "description": "Выбери любой ход Ботана, Цыпочки или Качка."
+      },
+      {
+        "enable": false,
+        "name": "Милый и популярный",
+        "description": "Тебе нужно потратить только 4 <i>очка симпатии</i>, чтобы <b><i>прийти в себя</i></b>, как архетипу <b><i>Невинный.</i></b>"
+      },
+      {
+        "enable": false,
+        "name": "Открытый разум",
+        "description": "Ты можешь проникнуть в разум злой силы и узнать скрытую правду о ее мотивах и действиях. Когда ты проникаешь в сознание зла, чтобы <b><i>разобраться в ситуации</i></b>, расценивай результат 7-9 как 10+. Однако, при провале твой разум поражен злом: режиссер заставит тебя сделать что-то, что ты совсем не хочешь делать."
+      },
+      {
+        "enable": false,
+        "name": "Дети не пострадали",
+        "description": "Перед началом фильма, <b><i>прояви обаяние.</i></b>",
+        "type": "charm",
+        "full": "получи 2 <i>шанса.</i>",
+        "part": "получи 1 <i>шанс.</i>",
+        "fail": "режиссер получает один <i>шанс</i>, чтобы заставить силу зла напасть именно на тебя в самый неудобный момент.</i> Получи <i>очко симпатии</i>",
+        "details": " Ты можешь использовать <i>шанс</i>, чтобы сила зла игнорировала тебя в течение одной сцены."
+      },
+      {
+        "enable": false,
+        "name": "Очарование невинности",
+        "description": "Когда ты <b><i>получаешь что хочешь</i></b> от другого персонажа, при провале, этот персонаж не получает <i>очко симпатии</i>, если поступает тебе наперекор."
+      }
+    ],
+    "chicken": [
+      {
+        "enable": false,
+        "name": "Красотка в беде",
+        "description": "Ты начинаешь фильм с -1 <i>очком симпатии</i>. Взамен ты получаешь +1 к <i>обаянию</i> (до максимума +3)."
+      },
+      {
+        "enable": false,
+        "name": "Альфа-сучка",
+        "description": "Когда ты оскорбляешь, унижаешь и опускаешь другого персонажа, получи <i>расходуемый козырь</i> за свое раздутое самомнение. Если твоей жертвой был персонаж игрока, он получает <i>очко симпатии.</i>"
+      },
+      {
+        "enable": false,
+        "name": "Хватит, это не смешно!",
+        "description": "Ты с завидным упорством принимаешь опасность за розыгрыш или совпадение. Если ты действуешь беспечно и беззаботно в очевидно пугающей ситуации, получи <i>очко симпатии.</i>"
+      },
+      {
+        "enable": false,
+        "name": "Аппетитная внешность",
+        "description": "Когда ты используешь свою привлекательность, чтобы манипулировать людьми и <b><i>получить что хочешь</i></b>, расценивай результат 7-9 как 10+. При этом ты получаешь расходуемый <i>штраф</i> на любой следующий ход, кроме <b><i>получить что хочешь.</i></b>"
+      },
+      {
+        "enable": false,
+        "name": "Жуткая находка",
+        "description": "Ты можешь внезапно наткнуться на что-то жуткое и связанное с сюжетом фильма. Возьми пункт страха, чтобы задать 1 вопрос из хода <b><i>разобраться в ситуации</i></b>, не бросая кубики."
+      },
+      {
+        "enable": false,
+        "name": "Подлый ход",
+        "description": "Когда ты предаешь другого персонажа для достижения эгоистичной цели, <b><i>напряги мозги.</i></b>",
+        "type": "brain",
+        "full": "твой план успешен: режиссер делает ход против преданного тобой персонажа.",
+        "part": "твой план успешен: режиссер делает ход против преданного тобой персонажа. Также теряешь <i>очко симпатии.</i>",
+        "fail": "ты не получаешь <i>очко симпатии</i> как обычно, а режиссер делает ход против тебя."
+      }
+    ],
+    "sheriff": [
+      {
+        "enable": false,
+        "name": "Мужик со стволом",
+        "description": "Получи <i>постоянный козырь</i> на то, чтобы <b><i>наехать</i></b>, пока используешь в схватке огнестрельное оружие. На 7-9, ты также можешь выбрать эти варианты.<ul><li>твою пушку заклинило</li><li>у тебя кончились патроны</li></ul>При провале, пушка сломана или ее у тебя отобрали."
+      },
+      {
+        "enable": false,
+        "name": "Не беси меня, парень!",
+        "description": "Когда ты общаешься с второстепенным персонажем жестко и подозрительно, <b><i>напряги тело.</i></b>",
+        "type": "body",
+        "full": "он расколется и выдаст какой-то секрет, связанный с сюжетом фильма.",
+        "part": "он расколется и выдаст какой-то секрет, связанный с сюжетом фильма. Tы также привлекаешь чье-то враждебное внимание.",
+        "fail": "что-то ужасное появляется в сцене прежде, чем ты успеваешь что-либо узнать.</i> Получи <i>очко симпатии</i>"
+      },
+      {
+        "enable": false,
+        "name": "Тачка",
+        "description": "У тебя есть служебный транспорт, который помогает тебе выполнять работу. Если берешь этот ход, выбери одно преимущество и один недостаток для своего транспорта.",
+        "selects": [
+          {
+            "label": "Преимущества",
+            "limit": 1,
+            "items": [
+              "быстрый",
+              "многоместный",
+              "крепкий",
+              "есть радиосвязь",
+              "есть оружие"
+            ]
+          },
+          {
+            "label": "Недостатки",
+            "limit": 1,
+            "items": [
+              "одноместный",
+              "хрупкий",
+              "медленный",
+              "плохо заводится",
+              "часто ломается"
+            ]
+          }
+        ]
+      },
+      {
+        "enable": false,
+        "name": "Не боюсь привидений",
+        "description": "Когда ты <b><i>разбираешься в ситуации</i></b>, при провале ты не получаешь <i>пункт страха</i>. Режиссер все еще делает ход против тебя."
+      },
+      {
+        "enable": false,
+        "name": "Нет! Только не их!",
+        "description": "Когда ты подставляешься под смертельную опасность, защищая от нее других персонажей, получи <i>очко симпатии.</i>"
+      }
+    ],
+    "exorcist": [
+      {
+        "enable": false,
+        "name": "Да хранит тебя Бог",
+        "description": "Ты можешь даровать другому персонажу мистическое благословение. Когда благословляешь персонажа, отдай ему одно из твоих <i>очков симпатии.</i>"
+      },
+      {
+        "enable": false,
+        "name": "Архивы Ватикана",
+        "description": "У тебя есть доступ к особой библиотеке или базе данных о сверхъестественном. Когда ты обращаешься к своему источнику знаний, чтобы <b><i>разобраться в ситуации</i></b>, задай 1 дополнительный вопрос. При провале, ты все еще можешь задать 1 вопрос, но режиссер сообщит тебе что-то очень зловещее."
+      },
+      {
+        "enable": false,
+        "name": "Забери меня!",
+        "description": "Когда ты добровольно предлагаешь силе зла напасть на тебя вместо другого персонажа и не защищаешься, этот персонаж может благополучно покинуть сцену. Все плохое, что должно было произойти с ним, теперь произойдет с тобой. За это ты получаешь <i>очко симпатии.</i>"
+      },
+      {
+        "enable": false,
+        "name": "Не боюсь привидений",
+        "description": "Когда ты <b><i>разбираешься в ситуации</i></b>, при провале ты не получаешь <i>пункт страха</i>. Режиссер все еще делает ход против тебя."
+      },
+      {
+        "enable": false,
+        "name": "Сила Христа изгоняет тебя!",
+        "description": "Ты можешь сковать и изгнать сущности зла с помощью высшей сверхъестественной силы. Когда ты призываешь эту силу на помощь, <b><i>наберись храбрости./i></b>",
+        "type": "bravery",
+        "full": "зло устранено из текущей сцены (заперто в ловушке, изгнано, принуждено бежать и т.д.)",
+        "part": "выбери один вариант.<ul><li>Ты остановил зло лишь на время, в лучшем случае на пару минут</li><li>Ты получаешь <i>урон</i> или <i>травму</i> за изнеможение</li><li>Ты теряешь очко симпатии</li></ul>",
+        "fail": "злу смешны твои жалкие мольбы. Ты получаешь <i>пункт страха</i>, и режиссер делает ход против тебя.</i> Получи <i>очко симпатии</i>"
+      },
+      {
+        "enable": false,
+        "name": "Сила убеждения",
+        "description": "Когда ты <b><i>получаешь что хочешь</i></b>, используя религиозные или мистические доводы, получи <i>расходуемый козырь.</i>"
+      },
+      {
+        "enable": false,
+        "name": "Не убоюсь я зла",
+        "description": "Когда ты <b><i>собираешься с силами/i></b> и ищешь поддержки в молитве или реликвиях твоей веры, на 7-9 ты не получаешь <i>расходуемый штраф.</i>"
       }
     ]
   },
@@ -566,6 +2391,32 @@
             "там есть место только для одного",
             "злу легко его обнаружить",
             "злу легко прорваться внутрь"
+          ]
+        }
+      ]
+    }],
+    "sheriff": [{
+      "name": "Подкрепление",
+      "description": "Под твоим командованием служит пара человек: полицейские, егеря, охранники. Один раз за фильм ты можешь обратиться к ним за подмогой, информацией или еще чем. Выбери для них два положительных и два отрицательных качества.",
+      "selects": [
+        {
+          "label": "Положительные",
+          "limit": 2,
+          "items": [
+            "они верят всему, что ты скажешь",
+            "они неплохие бойцы",
+            "они могут прибыть на место быстро",
+            "они знают что-то, чего не знаешь ты"
+          ]
+        },
+        {
+          "label": "Отрицательные",
+          "limit": 2,
+          "items": [
+            "они настроены скептично",
+            "они долго добираются до места",
+            "они глупы и небрежны",
+            "они дерьмовые бойцы"
           ]
         }
       ]
