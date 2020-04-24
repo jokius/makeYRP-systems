@@ -1,0 +1,58 @@
+{
+  "status": "alpha",
+  "version": "0.0.1",
+  "identifier": "$identifier",
+  "name": "$name",
+  "img": "/EdgeOfUniverse/logo.jpg",
+  "description": "$description",
+  "template": {
+    "sheets": {
+      "character": {
+        "img": {},
+        "token": {},
+        "name": "$character",
+        "notes": "",
+        "role": "@random",
+        "appearance": "",
+        "description": "",
+        "stats": {
+          "fury": 0,
+          "control": 0,
+          "skill": 0,
+          "reputation": 0,
+          "welfare": 0
+        },
+        "hp": {},
+        "damage": 0,
+        "supply": 0,
+        "protection": 0,
+        "profit": 0,
+        "exp": {
+          "current": 0,
+          "max": 4
+        },
+        "level": 1,
+        "relationship": [],
+        "moves": [],
+        "specials": []
+      }
+    },
+    "menus": [],
+    "tables": {
+      "baseMoves": "$baseMoves",
+      "optionalMoves": "$optionalMoves",
+      "spaceMoves": "$spaceMoves",
+      "roles": "$roles",
+      "roleDescription": "$roleDescription",
+      "roleAppearances": "$roleAppearances",
+      "origin": "$origin",
+      "relationship": "$relationship",
+      "startingEquipment": "$startingEquipment",
+      "selectEquipment": "$selectEquipment",
+      "startMoves": "$startMoves",
+      "specialMoves": "$specialMoves",
+      "specials": "$specials",
+      "stats": "$stats"
+    }
+  }
+}
