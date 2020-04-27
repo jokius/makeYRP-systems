@@ -1,6 +1,6 @@
 {
   "status": "alpha",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "identifier": "$identifier",
   "name": "$name",
   "img": "/EdgeOfUniverse/logo.jpg",
@@ -15,6 +15,7 @@
         "role": "@random",
         "appearance": "",
         "description": "",
+        "origin": "",
         "stats": {
           "fury": 0,
           "control": 0,
@@ -34,7 +35,8 @@
         "level": 1,
         "relationship": [],
         "moves": [],
-        "specials": []
+        "specials": [],
+        "equipment": []
       }
     },
     "menus": [],
