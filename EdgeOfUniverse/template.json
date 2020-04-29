@@ -1,6 +1,6 @@
 {
   "status": "alpha",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "identifier": "$identifier",
   "name": "$name",
   "img": "/EdgeOfUniverse/logo.jpg",
@@ -39,7 +39,13 @@
         "equipment": []
       }
     },
-    "menus": [],
+    "menus": [
+      {
+        "type": "eou-clock",
+        "icon": "mdi-clock-outline",
+        "name": "$clock"
+      }
+    ],
     "tables": {
       "baseMoves": "$baseMoves",
       "optionalMoves": "$optionalMoves",
