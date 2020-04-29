@@ -1,6 +1,6 @@
 {
   "status": "alpha",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "identifier": "$identifier",
   "name": "$name",
   "img": "/EdgeOfUniverse/logo.jpg",
@@ -73,7 +73,8 @@
       "specialMoves": "$specialMoves",
       "specials": "$specials",
       "stats": "$stats",
-      "enemyMoves": "$enemyMoves"
+      "enemyMoves": "$enemyMoves",
+      "enemies": "$enemies"
     }
   }
 }
