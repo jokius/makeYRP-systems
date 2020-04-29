@@ -1,6 +1,6 @@
 {
   "status": "alpha",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "identifier": "$identifier",
   "name": "$name",
   "img": "/EdgeOfUniverse/logo.jpg",
@@ -37,6 +37,18 @@
         "moves": [],
         "specials": [],
         "equipment": []
+      },
+      "enemy": {
+        "img": {},
+        "token": {},
+        "name": "$enemy",
+        "notes": "",
+        "description": "",
+        "damage": 0,
+        "protection": 0,
+        "wounds": 0,
+        "woundsMax": 0,
+        "moves": []
       }
     },
     "menus": [
@@ -60,7 +72,8 @@
       "startMoves": "$startMoves",
       "specialMoves": "$specialMoves",
       "specials": "$specials",
-      "stats": "$stats"
+      "stats": "$stats",
+      "enemyMoves": "$enemyMoves"
     }
   }
 }
