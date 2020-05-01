@@ -1,6 +1,6 @@
 {
   "status": "alpha",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "identifier": "$identifier",
   "name": "$name",
   "img": "/EdgeOfUniverse/logo.jpg",
@@ -25,7 +25,10 @@
         },
         "hp": {},
         "damage": 0,
-        "supply": 0,
+        "supply": {
+          "current": 0,
+          "max": 0
+        },
         "protection": 0,
         "profit": 0,
         "exp": {
@@ -49,6 +52,35 @@
         "wounds": 0,
         "woundsMax": 0,
         "moves": []
+      },
+      "ship": {
+        "img": {},
+        "token": {},
+        "name": "$ship",
+        "notes": "",
+        "origin": "",
+        "compartments": {
+          "engineeringCompartment": "$engineeringCompartment",
+          "runningCompartment": "$runningCompartment",
+          "bridge": "$bridge",
+          "gunCompartment": "$gunCompartment",
+          "hull": "$hull",
+          "hangar": "$hangar",
+          "hold": "$hold",
+          "scienceCompartment": "$scienceCompartment",
+          "hydroponicCompartment": "$hydroponicCompartment",
+          "otherSystems": "$otherSystems"
+        },
+        "hp": {
+          "current": 0,
+          "max": 0
+        },
+        "energy": {
+          "current": 0,
+          "max": 3
+        },
+        "damage": 0,
+        "protection": 0
       }
     },
     "menus": [
