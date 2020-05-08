@@ -1,6 +1,6 @@
 {
   "status": "alpha",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "identifier": "$identifier",
   "name": "$name",
   "img": "/EdgeOfUniverse/logo.jpg",
@@ -70,10 +70,6 @@
           "scienceCompartment": "$scienceCompartment",
           "hydroponicCompartment": "$hydroponicCompartment",
           "otherSystems": "$otherSystems"
-        },
-        "hp": {
-          "current": 0,
-          "max": 0
         },
         "protection": {
           "current": 0,
