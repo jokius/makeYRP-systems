@@ -1,6 +1,6 @@
 {
   "status": "alpha",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "identifier": "$identifier",
   "name": "$name",
   "img": "/EdgeOfUniverse/logo.jpg",
@@ -87,6 +87,11 @@
         "type": "eou-clock",
         "icon": "mdi-clock-outline",
         "name": "$clock"
+      },
+      {
+        "type": "eou-planet",
+        "icon": "mdi-earth",
+        "name": "$planet"
       }
     ],
     "tables": {
@@ -106,7 +111,15 @@
       "specials": "$specials",
       "stats": "$stats",
       "enemyMoves": "$enemyMoves",
-      "enemies": "$enemies"
+      "enemies": "$enemies",
+      "ucg": "$ucg",
+      "planetFeatures": "$planetFeatures",
+      "atmosphere": "$atmosphere",
+      "colonization": "$colonization",
+      "region": "$region",
+      "specialization": "$specialization",
+      "colonizationFeatures": "$colonizationFeatures",
+      "planetNames": "$planetNames"
     }
   }
 }
