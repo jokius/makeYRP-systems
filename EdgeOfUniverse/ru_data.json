@@ -525,7 +525,7 @@
       "key": "kinetic",
       "name": "Кинетик",
       "hp": {
-        "max": 4,
+        "max": 5,
         "current": 4
       },
       "welfare": 1,
