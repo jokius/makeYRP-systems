@@ -4762,7 +4762,7 @@
         "type": "select",
         "name": "Компаньон",
         "label": "Выбери тип своего кибер-компаньона",
-        "multiple": false,
+        "multiple": true,
         "list": [
           {
             "text": "Ассистент",
