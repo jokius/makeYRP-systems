@@ -1,6 +1,6 @@
 {
   "status": "alpha",
-  "version": "0.0.30",
+  "version": "0.0.31",
   "identifier": "$identifier",
   "name": "$name",
   "img": "/EdgeOfUniverse/logo.jpg",
@@ -40,6 +40,29 @@
         "moves": [],
         "specials": [],
         "equipment": []
+      },
+      "companion": {
+        "img": {},
+        "token": {},
+        "name": "$companion",
+        "notes": "",
+        "role": "@random",
+        "description": "",
+        "stats": {
+          "fury": 0,
+          "control": 0,
+          "skill": 0,
+          "reputation": 0,
+          "welfare": 0
+        },
+        "hp": {},
+        "damage": 0,
+        "supply": {
+          "current": 0,
+          "max": 0
+        },
+        "protection": 0,
+        "moves": []
       },
       "enemy": {
         "img": {},
