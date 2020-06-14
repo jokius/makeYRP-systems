@@ -1,6 +1,6 @@
 {
-  "status": "alpha",
-  "version": "0.0.31",
+  "status": "beta",
+  "version": "0.1.0",
   "identifier": "$identifier",
   "name": "$name",
   "img": "/EdgeOfUniverse/logo.jpg",
@@ -112,6 +112,11 @@
         "name": "$clock"
       },
       {
+        "type": "eou-items",
+        "icon": "mdi-bag-personal",
+        "name": "$items"
+      },
+      {
         "type": "eou-planet",
         "icon": "mdi-earth",
         "name": "$planet"
@@ -143,6 +148,7 @@
       "specialization": "$specialization",
       "colonizationFeatures": "$colonizationFeatures",
       "planetNames": "$planetNames"
-    }
+    },
+    "items": "$itemList"
   }
 }
