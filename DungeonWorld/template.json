@@ -54,7 +54,8 @@
       "startMoves": "$startMoves",
       "specialMoves": "$specialMoves",
       "enemies": "$enemies",
-      "items": "$itemList"
+      "items": "$itemList",
+      "spells": "$spells"
     }
   }
 }
