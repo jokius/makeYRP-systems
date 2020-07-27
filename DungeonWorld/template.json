@@ -1,6 +1,6 @@
 {
   "status": "alpha",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "identifier": "$identifier",
   "name": "$name",
   "img": "/DungeonWorld/logo.jpg",
@@ -17,6 +17,7 @@
         "stats": "$stats",
         "hp": {},
         "damage": "d4",
+        "weight": 0,
         "protection": 0,
         "exp": 0,
         "level": 1,
