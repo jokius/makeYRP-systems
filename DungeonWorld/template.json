@@ -1,6 +1,6 @@
 {
   "status": "alpha",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "identifier": "$identifier",
   "name": "$name",
   "img": "/DungeonWorld/logo.jpg",
@@ -28,6 +28,22 @@
         "relationship": [],
         "moves": [],
         "equipment": []
+      },
+      "enemy": {
+        "img": {},
+        "token": {},
+        "name": "$enemy",
+        "notes": "",
+        "description": "",
+        "damage": "",
+        "damageName": "",
+        "damageTags": [],
+        "protection": 0,
+        "hp": {},
+        "tags": [],
+        "special": "",
+        "instinct": "",
+        "moves": []
       }
     },
     "menus": [
