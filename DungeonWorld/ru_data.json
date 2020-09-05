@@ -29,7 +29,7 @@
       }
     },
     {
-      "name": "Телосожение",
+      "name": "Телосложение",
       "short": "ТЕЛ",
       "type": "constitution",
       "value": null,
@@ -39,7 +39,7 @@
       }
     },
     {
-      "name": "Ителект",
+      "name": "Интелект",
       "short": "ИНТ",
       "type": "intelligence",
       "value": null,
