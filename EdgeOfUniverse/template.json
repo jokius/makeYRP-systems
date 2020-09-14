@@ -1,6 +1,6 @@
 {
   "status": "beta",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "identifier": "$identifier",
   "name": "$name",
   "img": "/EdgeOfUniverse/logo.jpg",
@@ -148,8 +148,8 @@
       "region": "$region",
       "specialization": "$specialization",
       "colonizationFeatures": "$colonizationFeatures",
-      "planetNames": "$planetNames"
-    },
-    "items": "$itemList"
+      "planetNames": "$planetNames",
+      "items": "$items"
+    }
   }
 }
