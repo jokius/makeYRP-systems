@@ -1,6 +1,6 @@
 {
   "status": "beta",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "identifier": "$identifier",
   "name": "$name",
   "img": "/EdgeOfUniverse/logo.jpg",
@@ -128,8 +128,6 @@
       "spaceMoves": "$spaceMoves",
       "roles": "$roles",
       "companions": "$companions",
-      "roleDescription": "$roleDescription",
-      "roleAppearances": "$roleAppearances",
       "origin": "$origin",
       "shipOrigin": "$shipOrigin",
       "relationship": "$relationship",
