@@ -5952,7 +5952,7 @@
           {
             "type": "block",
             "name": "Базовые Утилиты",
-            "items": [
+            "list": [
               {
                 "itemType": "move",
                 "enable": false,
@@ -6021,7 +6021,7 @@
           {
             "type": "block",
             "name": "Продвинутые Утилиты",
-            "items": [
+            "list": [
               {
                 "itemType": "move",
                 "enable": false,
