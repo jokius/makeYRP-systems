@@ -1,0 +1,60 @@
+{
+  "status": "alpha",
+  "version": "0.0.1",
+  "identifier": "$identifier",
+  "name": "$name",
+  "img": "/ApocalypseWorld/logo.jpg",
+  "description": "$description",
+  "template": {
+    "sheets": {
+      "character": {
+        "img": {},
+        "token": {},
+        "name": "$character",
+        "notes": "",
+        "role": "@random",
+        "appearance": "",
+        "stats": "$stats",
+        "protection": 0,
+        "wounds": 0,
+        "relationship": [],
+        "moves": [],
+        "equipment": []
+      },
+      "enemy": {
+        "img": {},
+        "token": {},
+        "name": "$enemy",
+        "notes": "",
+        "description": "",
+        "protection": 0,
+        "wounds": 0
+      }
+    },
+    "menus": [
+      {
+        "type": "aw-clock",
+        "icon": "mdi-clock-outline",
+        "name": "$clock"
+      },
+      {
+        "type": "aw-items",
+        "icon": "mdi-bag-personal",
+        "name": "$items"
+      }
+    ],
+    "tables": {
+      "stats": "$stats",
+      "specialsTypes": "$specialsTypes",
+      "baseMoves": "$baseMoves",
+      "optionalMoves": "$optionalMoves",
+      "roles": "$roles",
+      "specials": "$specials",
+      "relationship": "$relationship",
+      "startingEquipment": "$startingEquipment",
+      "selectEquipment": "$selectEquipment",
+      "moves": "$moves",
+      "items": "$itemList"
+    }
+  }
+}
