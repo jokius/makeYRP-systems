@@ -50,7 +50,6 @@
       "optionalMoves": "$optionalMoves",
       "roles": "$roles",
       "specials": "$specials",
-      "relationship": "$relationship",
       "startingEquipment": "$startingEquipment",
       "selectEquipment": "$selectEquipment",
       "moves": "$moves",
